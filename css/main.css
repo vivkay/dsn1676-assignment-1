@@ -1,0 +1,39 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.masthead {
+	background: transparent url("../img/masthead-bg.png") repeat left center;
+    text-align: center;
+}
+
+.title {
+    background-color: #e7e5d9;
+    display: inline-block;
+}
+
+.background-beige {
+	background-color: #e7e5d9;
+}
+
+.brown-box {
+    background-color: #87714f;
+    padding: 20px;
+    color: white;
+}
