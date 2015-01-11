@@ -26,6 +26,15 @@ html {
 .title {
     background-color: #e7e5d9;
     display: inline-block;
+    background-image: transparent url("../img/stars.svg");
+}
+
+.star {
+    display: inline-block;
+}
+
+.border {
+    border: 2px solid red;
 }
 
 .background-beige {
@@ -36,4 +45,9 @@ html {
     background-color: #87714f;
     padding: 20px;
     color: white;
+}
+
+.panel {
+    border-image: url(../img/border.png) 24 24 24 24 stretch stretch;
+    border-width: 24px 24px 24px 24px;
 }
