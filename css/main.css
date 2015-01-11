@@ -33,10 +33,6 @@ html {
     display: inline-block;
 }
 
-.border {
-    border: 2px solid red;
-}
-
 .background-beige {
 	background-color: #e7e5d9;
 }
@@ -47,7 +43,24 @@ html {
     color: white;
 }
 
+.box-cuffs {
+    background-image: url(../img/cuffs.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: top;
+    background-size: 50px 50px;
+    
+}
+
+.box-hat {
+    background-image: url(../img/hat.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: bottom;
+    background-size: 50px 50px;
+}
+
 .panel {
     border-image: url(../img/border.png) 24 24 24 24 stretch stretch;
-    border-width: 24px 24px 24px 24px;
+    border-width: 80px 80px 80px 80px;
 }
