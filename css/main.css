@@ -29,23 +29,27 @@ html {
     margin-bottom: 0;
 }
 
+.star-x {
+background-image: url("../img/star.svg"), url("../img/star.svg");
+background-position: calc(100% - 10px) center, 10px center;
+background-repeat: no-repeat;
+background-size: 45px 45px, 45px 45px;
+padding: 0 4rem;
+}
+
 .star-r {
     background-image: url("../img/star.svg");
     background-position: right;
     background-repeat: no-repeat;
+    background-size: 20px 20px 20px 20px;
 }
 
 .star-l {
     background-image: url("../img/star.svg");
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
-}
-    
-    
-
-.star {
-    display: inline-block;
-}
+    background-size: 20px 20px 20px 20px;
+}  
 
 .background-beige {
 	background-color: #e7e5d9;
@@ -73,7 +77,10 @@ html {
     background-size: 50px 50px;   
 }
 
-
+.img-flex {
+    display: block;
+    width: 100%;
+}
 
 .panel {
     border-image: url(../img/border.png) 24 24 24 24 stretch stretch;
