@@ -194,6 +194,14 @@ sub {
   padding-bottom: 0.3750rem;
 }
 
+.pad-left, .pad-l {
+    padding-left: 1.25rem;
+}
+
+.pad-right, .pad-r {
+    padding-right: 1.25rem;
+}
+
 .island {
   padding: 1.5rem;
 }

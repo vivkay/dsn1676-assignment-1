@@ -27,6 +27,7 @@ html {
     background-color: #e7e5d9;
     display: inline-block;
     margin-bottom: 0;
+    text-shadow: 2px 2px 0 #c2c2c2;
 }
 
 .star-x {
@@ -36,20 +37,6 @@ background-repeat: no-repeat;
 background-size: 45px 45px, 45px 45px;
 padding: 0 4rem;
 }
-
-.star-r {
-    background-image: url("../img/star.svg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 20px 20px 20px 20px;
-}
-
-.star-l {
-    background-image: url("../img/star.svg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 20px 20px 20px 20px;
-}  
 
 .background-beige {
 	background-color: #e7e5d9;
@@ -66,7 +53,7 @@ padding: 0 4rem;
     background-repeat: no-repeat;
     text-align: center;
     background-position: top;
-    background-size: 80px 80px;
+    background-size: 50px 50px 50px 50px;
 }
 
 .cuffs {
@@ -83,6 +70,6 @@ padding: 0 4rem;
 }
 
 .panel {
-    border-image: url(../img/border.png) 24 24 24 24 stretch stretch;
-    border-width: 80px 80px 80px 80px;
+    border-image: url(../img/border.png) 36 36 36 36 stretch stretch;
+    border-width: 36px 36px 36px 36px;
 }
