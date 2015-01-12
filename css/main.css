@@ -48,20 +48,11 @@ padding: 0 4rem;
     color: white;
 }
 
-.hat {
-    background-image: url(../img/hat.svg);
+.hat-cuffs {
+    background-image: url(../img/hat.svg), url(../img/cuffs.svg);
     background-repeat: no-repeat;
-    text-align: center;
-    background-position: top;
-    background-size: 50px 50px 50px 50px;
-}
-
-.cuffs {
-    background-image: url(../img/cuffs.svg);
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position: bottom;
-    background-size: 50px 50px;   
+    background-position: top, bottom;
+    background-size: 90px 90px, 50px 50px;
 }
 
 .img-flex {
